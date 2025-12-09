@@ -1,3 +1,5 @@
+### EC2 Creation #####
+
 resource "aws_instance" "Frontend" {
     ami = "ami-09c813fb71547fc4f"
     instance_type = "t3.micro"
@@ -8,6 +10,7 @@ resource "aws_instance" "Frontend" {
     }
 }
 
+### Security Group Creation ###
 resource "aws_security_group" "allow_all" {
   name   = "allow_all"
 
