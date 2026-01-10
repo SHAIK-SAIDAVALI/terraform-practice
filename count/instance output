@@ -1,7 +1,7 @@
- [
+[
   {
     "ami" = "ami-09c813fb71547fc4f"
-    "arn" = "arn:aws:ec2:us-east-1:584156787994:instance/i-0b6742f03adf44b1b"
+    "arn" = "arn:aws:ec2:us-east-1:584156787994:instance/i-0ec8b9b45d7395bb6"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1d"
     "capacity_reservation_specification" = tolist([
@@ -39,7 +39,7 @@
     "host_id" = ""
     "host_resource_group_arn" = tostring(null)
     "iam_instance_profile" = ""
-    "id" = "i-0b6742f03adf44b1b"
+    "id" = "i-0ec8b9b45d7395bb6"
     "instance_initiated_shutdown_behavior" = "stop"
     "instance_lifecycle" = ""
     "instance_market_options" = tolist([])
@@ -73,11 +73,11 @@
     "primary_network_interface" = tolist([
       {
         "delete_on_termination" = true
-        "network_interface_id" = "eni-0c7bac56c929ce22d"
+        "network_interface_id" = "eni-0b40db1845472c056"
       },
     ])
-    "primary_network_interface_id" = "eni-0c7bac56c929ce22d"
-    "private_dns" = "ip-172-31-24-133.ec2.internal"
+    "primary_network_interface_id" = "eni-0b40db1845472c056"
+    "private_dns" = "ip-172-31-19-174.ec2.internal"
     "private_dns_name_options" = tolist([
       {
         "enable_resource_name_dns_a_record" = false
@@ -85,9 +85,9 @@
         "hostname_type" = "ip-name"
       },
     ])
-    "private_ip" = "172.31.24.133"
-    "public_dns" = "ec2-54-205-203-136.compute-1.amazonaws.com"
-    "public_ip" = "54.205.203.136"
+    "private_ip" = "172.31.19.174"
+    "public_dns" = "ec2-52-23-202-171.compute-1.amazonaws.com"
+    "public_ip" = "52.23.202.171"
     "region" = "us-east-1"
     "root_block_device" = tolist([
       {
@@ -99,7 +99,7 @@
         "tags" = tomap({})
         "tags_all" = tomap({})
         "throughput" = 125
-        "volume_id" = "vol-0cd0a428592c4b4bc"
+        "volume_id" = "vol-013195d18b5fd8c73"
         "volume_size" = 20
         "volume_type" = "gp3"
       },
@@ -126,12 +126,12 @@
     "user_data_replace_on_change" = false
     "volume_tags" = tomap(null) /* of string */
     "vpc_security_group_ids" = toset([
-      "sg-0c0793724b2bbd3bb",
+      "sg-0fcdc0af43e211aa8",
     ])
   },
   {
     "ami" = "ami-09c813fb71547fc4f"
-    "arn" = "arn:aws:ec2:us-east-1:584156787994:instance/i-0808680a2443d8c54"
+    "arn" = "arn:aws:ec2:us-east-1:584156787994:instance/i-07fa80c2b450aadb6"
     "associate_public_ip_address" = true
     "availability_zone" = "us-east-1d"
     "capacity_reservation_specification" = tolist([
@@ -169,7 +169,7 @@
     "host_id" = ""
     "host_resource_group_arn" = tostring(null)
     "iam_instance_profile" = ""
-    "id" = "i-0808680a2443d8c54"
+    "id" = "i-07fa80c2b450aadb6"
     "instance_initiated_shutdown_behavior" = "stop"
     "instance_lifecycle" = ""
     "instance_market_options" = tolist([])
@@ -203,11 +203,11 @@
     "primary_network_interface" = tolist([
       {
         "delete_on_termination" = true
-        "network_interface_id" = "eni-091c12f68592a5069"
+        "network_interface_id" = "eni-01af48b8c347e0e43"
       },
     ])
-    "primary_network_interface_id" = "eni-091c12f68592a5069"
-    "private_dns" = "ip-172-31-27-201.ec2.internal"
+    "primary_network_interface_id" = "eni-01af48b8c347e0e43"
+    "private_dns" = "ip-172-31-21-111.ec2.internal"
     "private_dns_name_options" = tolist([
       {
         "enable_resource_name_dns_a_record" = false
@@ -215,9 +215,9 @@
         "hostname_type" = "ip-name"
       },
     ])
-    "private_ip" = "172.31.27.201"
-    "public_dns" = "ec2-34-229-122-6.compute-1.amazonaws.com"
-    "public_ip" = "34.229.122.6"
+    "private_ip" = "172.31.21.111"
+    "public_dns" = "ec2-98-88-254-129.compute-1.amazonaws.com"
+    "public_ip" = "98.88.254.129"
     "region" = "us-east-1"
     "root_block_device" = tolist([
       {
@@ -229,7 +229,7 @@
         "tags" = tomap({})
         "tags_all" = tomap({})
         "throughput" = 125
-        "volume_id" = "vol-0f73bde64d0b3da6a"
+        "volume_id" = "vol-052ad62d8d253ad8b"
         "volume_size" = 20
         "volume_type" = "gp3"
       },
@@ -256,7 +256,7 @@
     "user_data_replace_on_change" = false
     "volume_tags" = tomap(null) /* of string */
     "vpc_security_group_ids" = toset([
-      "sg-0c0793724b2bbd3bb",
+      "sg-0fcdc0af43e211aa8",
     ])
   },
 ]
