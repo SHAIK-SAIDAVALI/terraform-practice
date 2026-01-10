@@ -1,5 +1,5 @@
 variable "Environment" {
     type = string
-    default ="PROD" 
+    default ="QA" 
   
 }
